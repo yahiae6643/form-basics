@@ -12,16 +12,52 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h2>What music do you prefer?</h2>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
-            Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+           
+            
 
             <!--add your own inputs below-->
-
+            
+             
+             
+            <font size=5>Name:</font> <input type="text" name="name"> <br> 
+            
+           <font size=5>Age:</font> <input type="text" name="age" style="width: 25px;" required> <br>
+            
+            <font size = 5>Gender:</font> <br> 
+            <input type="radio" name="sex" value="sex"> <font size=4>Male</font> <br>
+            <input type="radio" name="sex" value="sex"> <font size=4>Female</font> <br>
+            
+            <font size=5>What adjective relates to your taste in music?</font><br>
+            <select name="music" required>
+                <option value="Peaceful">Peaceful</option>
+                <option value="Intense">Intense</option>
+                <option value="Sad">Sad</option>
+                <option value="Catchy">Catchy</option>
+            </select> <br>
+            
+            <font size=5>What genres of music do you like?</font> <br>
+            
+            <input type="checkbox" name="genre" value="Rock" ><font size=3>Rock</font> <br>
+            <input type="checkbox" name="genre" value="Hip-hop" ><font size=3>Hip-hop</font> <br>
+            <input type="checkbox" name="genre" value="Metal" ><font size=3>Metal</font> <br>
+            <input type="checkbox" name="genre" value="Rap" ><font size=3>Rap</font> <br>
+            <input type="checkbox" name="genre" value="Instrumental" ><font size=3>Intrumental</font> <br>
+            
+            <font size=5>Any music you like that wasn't mentioned?</font><br>
+            
+            <textarea name="Not mentioned" placeholder="Anything at all?"></textarea></textarea></textarea><br>
+            
+            
+            
+            
+            
+            
+            
+            
 
 
 
@@ -30,7 +66,7 @@
 
 
             <!--add your own inputs above-->
-
+    
             <input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
